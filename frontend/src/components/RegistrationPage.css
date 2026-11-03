@@ -1,0 +1,78 @@
+/* frontend/src/components/RegistrationPage.css */
+
+.registration-container {
+  max-width: 500px;
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid var(--color-border);
+  border-radius: 8px;
+  background-color: var(--color-background-light);
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.registration-container h1,
+.registration-container p {
+  text-align: center;
+  margin-bottom: 20px;
+  color: var(--color-text-dark);
+}
+
+.registration-form .form-group {
+  margin-bottom: 15px;
+  text-align: left;
+}
+
+.registration-form label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: var(--color-text-dark);
+}
+
+.registration-form input[type="text"],
+.registration-form input[type="email"],
+.registration-form input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid var(--color-border);
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size: 1em;
+}
+
+/* Style cho nhóm Radio buttons (nếu có) */
+/* .registration-form .radio-group { ... } */
+/* .registration-form .radio-group label { ... } */
+/* .registration-form input[type="radio"] { ... } */
+
+
+.registration-form .submit-button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color: var(--color-button-background);
+  color: var(--color-button-text);
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 1.1em;
+  margin-top: 20px;
+  transition: background-color 0.3s ease;
+}
+
+.registration-form .submit-button:hover {
+  background-color: var(--color-button-hover);
+}
+
+/* Style cho liên kết Đăng nhập dưới form */
+ .auth-link-text {
+    margin-top: 20px;
+    font-size: 0.9em;
+    text-align: center;
+}
+
+.auth-link-text a {
+    color: var(--color-primary);
+    font-weight: bold;
+    text-decoration: underline;
+}
